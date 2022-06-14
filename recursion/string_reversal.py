@@ -1,5 +1,5 @@
 def reverse(s):
-    if len(s) == 1:
+    if len(s) == 0:
         return s
     last = len(s) - 1
     return s[last] + reverse(s[:last])
