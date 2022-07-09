@@ -1,6 +1,6 @@
 |Tag|Problem|Description|
 |---|-------|-----------|
-| <span style="color:rgba(84, 231, 82, 0.8)">recursion</span> | [**anagrams**](recursion/anagrams.py) | Find all anagrams of a string 
+| <span style="color:rgba(84, 231, 82, 0.8)">*recursion*</span> | [**anagrams**](recursion/anagrams.py) | Find all anagrams of a string 
 | <span style="color:rgba(84, 231, 82, 0.8)">recursion</span> | [**count x**](recursion/count_x.py) | Count number of x's in a string
 | <span style="color:rgba(84, 231, 82, 0.8)">recursion</span> | [**double array**](recursion/double_array.py) | Double the contents of an int/double array
 | <span style="color:rgba(84, 231, 82, 0.8)">recursion</span> | [**gcd of array**](recursion/gcd.py) | Find gcd of an array
@@ -14,5 +14,5 @@
 |Tag|Problem|Description|
 |---|-------|-----------|
 | <span style="color: rgba(82, 134, 231, 0.8)">bst</span> | [**set to height**](bst/bst.py) | Set each node on a binary tree to its height
-| <span style="color: rgba(82, 134, 231, 0.8)">bst</span> | [**inorder traversal**](bst/bst.py) | Return an array populated by bst traversal
+| <span style="color: rgba(82, 134, 231, 0.8)">bst</span> | [**inorder traversal**](bst/inorder_traversal.py) | Return an array populated by bst traversal
 
