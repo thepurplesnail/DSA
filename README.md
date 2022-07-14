@@ -20,4 +20,15 @@
 |---|-------|-----------|
 |DP | [**fibonacci**](dp/bottom-up/fib.py) | Find the nth fibonacci number
 
+###**BLIND 75**
 
+|Tag|Problem|Description|Difficulty
+|---|-------|-----------|-----------
+|array| [**Two Sum**](array/two_sum.py) | Return indices of the two numbers such that they add up to target | Easy
+|array| [**Best Time to Buy and Sell Stock**](array/maxProf.py) | Return maximum profit from array of buying and selling prices | Easy
+|array| [**Contains Duplicate**](array/containsDuplicate.py) | Return bool if array contains duplicate element | Easy
+|array| [**Maximum Product Subarray**](array/maxProduct.py) | Return bool if array contains duplicate element | Easy
+|array| [**Product of Array Except Self**](array/productExceptSelf.py) | Return an array such that `answer[i]` is equal to the product of all the elements of `nums` except `nums[i]`. | Medium
+|array| [**Maximum Sum Subarray**](array/maxSubArray.py) | Find the contiguous subarray with the largest sum| Medium
+|array| [**Find Minimum in Rotated Sorted Array**](array/findMin.py) | Return the index of the minimum in a rotated array in `Olog(n)` time | Medium
+|array| [**Search in Rotated Sorted Array**](array/search.py) | Return the index of the target in a rotated array in `Olog(n)` time | Medium
