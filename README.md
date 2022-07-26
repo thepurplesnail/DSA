@@ -20,7 +20,7 @@
 |---|-------|-----------|
 |DP | [**fibonacci**](dp/bottom-up/fib.py) | Find the nth fibonacci number
 
-###BLIND 75
+## BLIND 75
 
 |Tag|Problem|Description|Difficulty
 |---|-------|-----------|-----------
@@ -33,8 +33,8 @@
 |array| [**Find Minimum in Rotated Sorted Array**](array/findMin.py) | Return the index of the minimum in a rotated array in `Olog(n)` time | Medium
 |array| [**Search in Rotated Sorted Array**](array/search.py) | Return the index of the target in a rotated array in `Olog(n)` time | Medium
 
-##Sorting Algorithms
-###Bubble Sort O(N<sup>2</sup>)
+## Sorting Algorithms
+### Bubble Sort O(N<sup>2</sup>)
 ![bubble_sort_1](images/bubble_sort_1.png)
 ![bubble_sort_2](images/bubble_sort_2.png)
 ![bubble_sort_3](images/bubble_sort_3.png)
@@ -51,7 +51,7 @@ def bubbleSort(nums):
         unsortedTilIndex -= 1
     return nums
 ```
-###Insertion Sort O(N<sup>2</sup>)
+### Insertion Sort O(N<sup>2</sup>)
 ![insertion_sort_1](images/insertion_sort_1.png)
 ![insertion_sort_2](images/insertion_sort_2.png)
 ![insertion_sort_3](images/insertion_sort_3.png)
