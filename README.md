@@ -64,7 +64,7 @@ def insertionSort(nums):
         pointer = i
         sorted = False
         while not sorted and pointer > 0:
-            if temp > nums[pointer - 1]:
+            if temp >= nums[pointer - 1]:
                 sorted = True
             else:
                 # -> shift previous to the right
@@ -74,4 +74,67 @@ def insertionSort(nums):
         # insert temp where pointer is pointing
         nums[pointer] = temp
     return nums
+```
+### Quicksort 
+#### Partioning
+![quicksort 1](images/quicksort_1.png)
+![quicksort 2](images/quicksort_2.png)
+
+```python
+def quicksort(nums):
+    helper(nums, 0, len(nums) - 1)
+    return nums
+
+def helper(nums, l, r):
+    if l >= r:
+        return
+    pivot = partition(nums, l, r)
+    helper(nums, l, pivot - 1)
+    helper(nums, pivot + 1, r)
+
+def partition(nums, l, r):
+    pivot = r
+    r -= 1
+    sorted = False
+    while not sorted:
+        while nums[l] < nums[pivot]:
+            l += 1
+        while nums[r] > nums[pivot]:
+            r += 1
+        if l >= r:
+            sorted = True
+        else:
+            nums[l], nums[r] = nums[r], nums[l]
+    nums[l], nums[pivot] = nums[pivot], nums[l]
+    return l
+```
+####3 way partitioning
+![threewaypartition](images/Threewaypartitioning.png)
+
+```python
+def quicksort(nums):
+    helper(nums, 0, len(nums) - 1)
+    return nums
+
+def helper(nums, l, r):
+    if l >= r:
+        return
+    lt, gt = partition(nums, l, r)
+    helper(nums, l, lt - 1)
+    helper(nums, gt + 1, r)
+
+def partition(nums, lo, hi): 
+    lt, pivot, gt = lo, nums[lo], hi
+    i = lo + 1
+    while i <= gt:
+        if nums[i] > pivot:
+            nums[i], nums[gt] = nums[gt], nums[i]
+            gt -= 1
+        elif nums[i] < pivot:
+            nums[lt], nums[i] = nums[i], nums[lt]
+            lt += 1 
+            i += 1
+        else:
+            i += 1
+    return lt, gt
 ```
