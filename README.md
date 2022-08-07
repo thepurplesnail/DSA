@@ -100,7 +100,7 @@ def partition(nums, l, r):
         while nums[l] < nums[pivot]:
             l += 1
         while nums[r] > nums[pivot]:
-            r += 1
+            r -= 1
         if l >= r:
             sorted = True
         else:
