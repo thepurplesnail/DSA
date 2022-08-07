@@ -75,7 +75,7 @@ def insertionSort(nums):
         nums[pointer] = temp
     return nums
 ```
-### Quicksort 
+### Quicksort O(NLogN)
 #### Partioning
 ![quicksort 1](images/quicksort_1.png)
 ![quicksort 2](images/quicksort_2.png)
@@ -108,7 +108,7 @@ def partition(nums, l, r):
     nums[l], nums[pivot] = nums[pivot], nums[l]
     return l
 ```
-####3 way partitioning
+#### 3 way partitioning
 ![threewaypartition](images/Threewaypartitioning.png)
 
 ```python
@@ -137,4 +137,42 @@ def partition(nums, lo, hi):
         else:
             i += 1
     return lt, gt
+```
+### Mergesort O(NLogN)
+
+![mergesort](images/mergesort.png)
+```python
+def mergeSort(nums):
+    helper(nums)
+    return nums
+
+def helper(nums):
+    if len(nums) <= 1:
+        return
+    mid = len(nums)//2
+    L = nums[:mid]
+    R = nums[mid:]
+    helper(L)
+    helper(R)
+    merge(L, R, nums)
+    
+def merge(L, R, nums):
+    i = j = k = 0 
+    while i < len(L) and j < len(R):
+        if L[i] <= R[j]:
+            nums[k] = L[i]
+            i += 1
+        else:
+            nums[k] = R[j]
+            j += 1
+        k += 1
+    # when L or R are unequal lengths
+    while i < len(L):
+        nums[k] = L[i]
+        i += 1
+        k += 1
+    while j < len(R):
+        nums[k] = R[j]
+        j += 1
+        k += 1
 ```
