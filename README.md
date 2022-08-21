@@ -4,12 +4,12 @@
 | recursion | [**count x**](recursion/count_x.py) | Count number of x's in a string
 | recursion | [**double array**](recursion/double_array.py) | Double the contents of an int/double array
 | recursion | [**gcd of array**](recursion/gcd.py) | Find gcd of an array
-| recursion, linked list | [**merge alternatively**](recursion/mergeAlternatively.py) | Merge two linked lists alternatively 
+| recursion, linked list | [**merge alternatively**](recursion/mergeAlternatively.py) | Merge two linked lists alternatively
 | recursion | [**palindrome**](recursion/palindrome.py) | Determine if a string is a palindrome
 | recursion | [**staircase**](recursion/staircase.py) | Let’s say we have a staircase of N steps, and a person has the ability to climb one, two, or three steps at a time. How many different possible “paths” can someone take to reach the top? 
 | recursion | [**string reversal**](recursion/string_reversal.py) | Reverse a string
 | recursion | [**sum array**](recursion/sumArr.py) | Find the sum of all numbers in an array 
-| recursion | [**triangular numbers**](recursion/triangular_numbers.py) | 
+| recursion | [**triangular numbers**](recursion/triangular_numbers.py) | Pattern 1, 3, 6, 10, 15, 21 where N<sup>th</sup> number is N plus the previous number 
 
 |Tag|Problem|Description|
 |---|-------|-----------|
@@ -18,20 +18,27 @@
 
 |Tag|Problem|Description|
 |---|-------|-----------|
+| linked list | [**palindrome linked list**](linked_lists/palindrome.py) | Determine if linked list is palindrome | M
+| linked list | [**reverse linked list ii**](linked_lists/reverse_linked_lists_ii.py) | Reverse linked list from position `left` to `right`
+
+|Tag|Problem|Description|
+|---|-------|-----------|
 |DP | [**fibonacci**](dp/bottom-up/fib.py) | Find the nth fibonacci number
+
 
 ## BLIND 75
 
 |Tag|Problem|Description|Difficulty
 |---|-------|-----------|-----------
-|array| [**Two Sum**](array/two_sum.py) | Return indices of the two numbers such that they add up to target | Easy
-|array| [**Best Time to Buy and Sell Stock**](array/maxProf.py) | Return maximum profit from array of buying and selling prices | Easy
-|array| [**Contains Duplicate**](array/containsDuplicate.py) | Return bool if array contains duplicate element | Easy
-|array| [**Maximum Product Subarray**](array/maxProduct.py) | Return bool if array contains duplicate element | Easy
-|array| [**Product of Array Except Self**](array/productExceptSelf.py) | Return an array such that `answer[i]` is equal to the product of all the elements of `nums` except `nums[i]`. | Medium
-|array| [**Maximum Sum Subarray**](array/maxSubArray.py) | Find the contiguous subarray with the largest sum| Medium
-|array| [**Find Minimum in Rotated Sorted Array**](array/findMin.py) | Return the index of the minimum in a rotated array in `Olog(n)` time | Medium
-|array| [**Search in Rotated Sorted Array**](array/search.py) | Return the index of the target in a rotated array in `Olog(n)` time | Medium
+|array| [**Two Sum**](array/two_sum.py) | Return indices of the two numbers such that they add up to target | E
+|array| [**Best Time to Buy and Sell Stock**](array/maxProf.py) | Return maximum profit from array of buying and selling prices | E
+|array| [**Contains Duplicate**](array/containsDuplicate.py) | Return bool if array contains duplicate element | E
+|array| [**Maximum Product Subarray**](array/maxProduct.py) | Return bool if array contains duplicate element | E
+|array| [**Product of Array Except Self**](array/productExceptSelf.py) | Return an array such that `answer[i]` is equal to the product of all the elements of `nums` except `nums[i]`. | M
+|array| [**Maximum Sum Subarray**](array/maxSubArray.py) | Find the contiguous subarray with the largest sum| M
+|array| [**Find Minimum in Rotated Sorted Array**](array/findMin.py) | Return the index of the minimum in a rotated array in `Olog(n)` time | M
+|array| [**Search in Rotated Sorted Array**](array/search.py) | Return the index of the target in a rotated array in `Olog(n)` time | M
+|array| [**Three Sum**](array/3sum.py) | Given an array nums, return an array of all unique triplets in nums that add up to 0 | M
 
 ## Sorting Algorithms
 ### Bubble Sort O(N<sup>2</sup>)
@@ -133,7 +140,6 @@ def partition(nums, lo, hi):
         elif nums[i] < pivot:
             nums[lt], nums[i] = nums[i], nums[lt]
             lt += 1 
-            i += 1
         else:
             i += 1
     return lt, gt
@@ -143,36 +149,33 @@ def partition(nums, lo, hi):
 ![mergesort](images/mergesort.png)
 ```python
 def mergeSort(nums):
-    helper(nums)
+    if len(nums) <= 1:
+        return nums
+    mid = len(nums) // 2
+    l = nums[:mid]
+    r = nums[mid:]
+    mergeSort(l)
+    mergeSort(r)
+    merge(l, r, nums)
     return nums
 
-def helper(nums):
-    if len(nums) <= 1:
-        return
-    mid = len(nums)//2
-    L = nums[:mid]
-    R = nums[mid:]
-    helper(L)
-    helper(R)
-    merge(L, R, nums)
-    
-def merge(L, R, nums):
-    i = j = k = 0 
-    while i < len(L) and j < len(R):
-        if L[i] <= R[j]:
-            nums[k] = L[i]
+def merge(l, r, nums):
+    i = j = k = 0
+    while i < len(l) and j < len(r):
+        if l[i] < r[j]:
+            nums[k] = l[i]
             i += 1
         else:
-            nums[k] = R[j]
+            nums[k] = r[j]
             j += 1
         k += 1
     # when L or R are unequal lengths
-    while i < len(L):
-        nums[k] = L[i]
+    while i < len(l):
+        nums[k] = l[i]
         i += 1
         k += 1
-    while j < len(R):
-        nums[k] = R[j]
+    while j < len(r):
+        nums[k] = r[j]
         j += 1
         k += 1
 ```

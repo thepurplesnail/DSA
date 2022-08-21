@@ -9,9 +9,7 @@ Output: [[-1,-1,2],[-1,0,1]]
 def threeSum(nums: list[int]) -> list[list[int]]:
     ans = []
     nums.sort()
-
-    i = 0
-    while i < len(nums):
+    for i in range(len(nums)):
         # if current num is not equal to the previous num -> do two sum
         if i == 0 or nums[i] != nums[i - 1]:
             # left and right pointer
@@ -32,6 +30,5 @@ def threeSum(nums: list[int]) -> list[list[int]]:
                     l += 1
                     while nums[l] == nums[l - 1] and l < r:
                         l += 1
-        i += 1
     return ans
 print(threeSum([-1,0,1,2,-1,-4]))
