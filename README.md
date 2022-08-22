@@ -5,10 +5,10 @@
 4. [DP](#DP)
 5. [Blind 75](#Blind-75)
 6. [Sorting Algorithms](#Sorting-Algorithms)
-7. [Bubble Sort](#Bubble-Sort)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [Bubble Sort](#Bubble-Sort)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Insertion Sort
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Quicksort
-8. [Mergesort](#Mergesort-O(NlogN))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Mergesort
 
 ## Recursion
 |Tag|Problem|Description|
@@ -58,7 +58,7 @@
 |array| [**Three Sum**](array/3sum.py) | Given an array nums, return an array of all unique triplets in nums that add up to 0 | M
 
 ## Sorting Algorithms
-### Bubble Sort O(N<sup>2</sup>)
+### Bubble Sort 
 ![bubble_sort_1](images/bubble_sort_1.png)
 ![bubble_sort_2](images/bubble_sort_2.png)
 ![bubble_sort_3](images/bubble_sort_3.png)
