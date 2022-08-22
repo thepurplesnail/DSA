@@ -8,7 +8,7 @@
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [Bubble Sort](#Bubble-Sort)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Insertion Sort
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Quicksort
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. [Mergesort](#Mergesort-O-NLogN)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. [Mergesort](#Mergesort-ONLogN)
 
 ## Recursion
 |Tag|Problem|Description|
