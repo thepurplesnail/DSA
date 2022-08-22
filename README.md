@@ -5,10 +5,10 @@
 4. [DP](#DP)
 5. [Blind 75](#Blind-75)
 6. [Sorting Algorithms](#Sorting-Algorithms)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [Bubble Sort](#Bubble-Sort)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. [Insertion Sort](#Insertion-Sort)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. [Quicksort](#Quicksort-O(NLogN))
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. [Mergesort](#Mergesort-O(NLogN))
+7. [Bubble Sort](#Bubble-Sort)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Insertion Sort
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Quicksort
+8. [Mergesort](#Mergesort-O(NlogN))
 
 ## Recursion
 |Tag|Problem|Description|
