@@ -7,8 +7,8 @@
 6. [Sorting Algorithms](#Sorting-Algorithms)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [Bubble Sort](#Bubble-Sort)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. [Insertion Sort](#Insertion-Sort)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. [Quicksort](#Quicksort)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. [Mergesort](#Mergesort)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. [Quicksort](#Quicksort-O(NLogN))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. [Mergesort](#Mergesort-O(NLogN))
 
 ## Recursion
 |Tag|Problem|Description|
