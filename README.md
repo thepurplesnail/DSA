@@ -5,9 +5,9 @@
 4. [DP](#DP)
 5. [Blind 75](#Blind-75)
 6. [Sorting Algorithms](#Sorting-Algorithms)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [Bubble Sort](#Bubble-Sort)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Insertion Sort
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Quicksort
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [Bubble Sort](#Bubble-Sort-ON2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. [Insertion Sort](#Insertion-Sort-ON2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. [Quicksort](#Quicksort-ONLogN)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. [Mergesort](#Mergesort-ONLogN)
 
 ## Recursion
