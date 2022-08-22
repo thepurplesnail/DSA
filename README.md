@@ -1,5 +1,5 @@
 ### Table of Contents
-1. <a name = "recursion">Recursion</a>
+1. <a name = "recursion"></a>Recursion
 2. <a name = "bst">BST</a>
 3. <a name = "linkedlist">Linked List</a>
 4. <a name = "dp">DP</a>
