@@ -8,7 +8,7 @@
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [Bubble Sort](#Bubble-Sort)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Insertion Sort
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Quicksort
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Mergesort
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. [Mergesort](#Mergesort-O-NLogN)
 
 ## Recursion
 |Tag|Problem|Description|
@@ -58,7 +58,7 @@
 |array| [**Three Sum**](array/3sum.py) | Given an array nums, return an array of all unique triplets in nums that add up to 0 | M
 
 ## Sorting Algorithms
-### Bubble Sort 
+### Bubble Sort O(N<sup>2</sup>)
 ![bubble_sort_1](images/bubble_sort_1.png)
 ![bubble_sort_2](images/bubble_sort_2.png)
 ![bubble_sort_3](images/bubble_sort_3.png)
