@@ -1,6 +1,6 @@
 ### Table of Contents
 #### <a id = "recursion"></a> Recursion
-2. <a id = "bst">BST</a>
+#### 2. <a id = "bst"></a> BST
 3. <a name = "linkedlist">Linked List</a>
 4. <a name = "dp">DP</a>
 5. <a name = "blind75">Blind 75</a>
