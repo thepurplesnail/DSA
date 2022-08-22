@@ -1,16 +1,16 @@
 ### Table of Contents
-#### <a id = "recursion"></a> Recursion
-#### 2. <a id = "bst"></a> BST
-3. <a name = "linkedlist">Linked List</a>
-4. <a name = "dp">DP</a>
-5. <a name = "blind75">Blind 75</a>
-6. <a name = "sortalgorithms">Sorting Algorithms</a>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. <a name = "bubblesort">Bubble Sort</a>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. <a name = "insertionsort">Insertion Sort</a>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. <a name = "quicksort">Quicksort</a>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. <a name = "mergesort">Mergesort</a>
+1. [Recursion](#Recursion)
+2. [BST](#BST)
+3. [Linked List](#Linked List)
+4. [DP](#DP)
+5. [Blind 75](#Blind 75)
+6. [Sorting Algorithms](#Sorting Algorithms)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [Bubble Sort](#Bubble Sort)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. [Insertion Sort](#Insertion Sort)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. [Quicksort](#Quicksort)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. [Mergesort](#Mergesort)
 
-## [Recursion](#recursion)
+## Recursion
 |Tag|Problem|Description|
 |---|-------|-----------|
 | recursion | [**anagrams**](recursion/anagrams.py) | Find all anagrams of a string 
@@ -24,19 +24,20 @@
 | recursion | [**sum array**](recursion/sumArr.py) | Find the sum of all numbers in an array 
 | recursion | [**triangular numbers**](recursion/triangular_numbers.py) | Pattern 1, 3, 6, 10, 15, 21 where N<sup>th</sup> number is N plus the previous number 
 
-## [BST](#bst)
+## BST
 |Tag|Problem|Description|
 |---|-------|-----------|
 | bst | [**set to height**](bst/bst.py) | Set each node on a binary tree to its height
 | bst | [**inorder traversal**](bst/inorder_traversal.py) | Return an array populated by bst traversal
 
+## Linked List
 |Tag|Problem|Description|Difficulty
 |---|-------|-----------|----------
 | linked list | [**palindrome linked list**](linked_lists/palindrome.py) | Determine if linked list is palindrome | M
 | linked list | [**reverse linked list ii**](linked_lists/reverse_linked_lists_ii.py) | Reverse linked list from position `left` to `right` | M
 | linked list, recursion | [**sort**](linked_lists/sort.py) | Sort linked list in `Olog(n)` time and `O(1)` | M
 
-
+## DP
 |Tag|Problem|Description|
 |---|-------|-----------|
 |DP | [**fibonacci**](dp/bottom-up/fib.py) | Find the nth fibonacci number
