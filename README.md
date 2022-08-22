@@ -11,18 +11,19 @@
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. [Mergesort](#Mergesort-ONLogN)
 
 ## Recursion
-|Tag|Problem|Description|
-|---|-------|-----------|
+|Tag|Problem|Description|Difficulty
+|---|-------|-----------|-----------
 | recursion | [**anagrams**](recursion/anagrams.py) | Find all anagrams of a string 
 | recursion | [**count x**](recursion/count_x.py) | Count number of x's in a string
 | recursion | [**double array**](recursion/double_array.py) | Double the contents of an int/double array
 | recursion | [**gcd of array**](recursion/gcd.py) | Find gcd of an array
-| recursion, linked list | [**merge alternatively**](recursion/mergeAlternatively.py) | Merge two linked lists alternatively
 | recursion | [**palindrome**](recursion/palindrome.py) | Determine if a string is a palindrome
 | recursion | [**staircase**](recursion/staircase.py) | Let’s say we have a staircase of N steps, and a person has the ability to climb one, two, or three steps at a time. How many different possible “paths” can someone take to reach the top? 
 | recursion | [**string reversal**](recursion/string_reversal.py) | Reverse a string
 | recursion | [**sum array**](recursion/sumArr.py) | Find the sum of all numbers in an array 
 | recursion | [**triangular numbers**](recursion/triangular_numbers.py) | Pattern 1, 3, 6, 10, 15, 21 where N<sup>th</sup> number is N plus the previous number 
+| recursion, linked list | [**merge alternatively**](recursion/mergeAlternatively.py) | Merge two linked lists alternatively
+| recursion, linked list, Blind 75 | [**merge**](linked_lists/merge.py) | Merge two sorted linked lists in increasing order | M
 
 ## BST
 |Tag|Problem|Description|
@@ -36,6 +37,9 @@
 | linked list | [**palindrome linked list**](linked_lists/palindrome.py) | Determine if linked list is palindrome | M
 | linked list | [**reverse linked list ii**](linked_lists/reverse_linked_lists_ii.py) | Reverse linked list from position `left` to `right` | M
 | linked list, recursion | [**sort**](linked_lists/sort.py) | Sort linked list in `Olog(n)` time and `O(1)` | M
+| linked list, recursion | [**merge alternatively**](recursion/mergeAlternatively.py) | Merge two linked lists alternatively | M
+| linked list, Blind 75 | [**Remove Nth Node from End of List**](linked_lists/removeNthFromEnd.py) | Remove the nth node from the end of a linked list | M
+| linked list, recursion, Blind 75 | [**merge**](linked_lists/merge.py) | Merge two sorted linked lists in increasing order | M 
 
 ## DP
 |Tag|Problem|Description|
@@ -56,6 +60,9 @@
 |array| [**Find Minimum in Rotated Sorted Array**](array/findMin.py) | Return the index of the minimum in a rotated array in `Olog(n)` time | M
 |array| [**Search in Rotated Sorted Array**](array/search.py) | Return the index of the target in a rotated array in `Olog(n)` time | M
 |array| [**Three Sum**](array/3sum.py) | Given an array nums, return an array of all unique triplets in nums that add up to 0 | M
+|linked list| [**Remove Nth Node from End of List**](linked_lists/removeNthFromEnd.py) | Remove the nth node from the end of a linked list | M
+|recursion, linked list| [**sort**](linked_lists/sort.py) | Sort linked list in `Olog(n)` time and `O(1)` space | M
+|recursion, linked list| [**Merge**](linked_lists/merge.py) | Merge two sorted linked lists in increasing order | M 
 
 ## Sorting Algorithms
 ### Bubble Sort O(N<sup>2</sup>)
