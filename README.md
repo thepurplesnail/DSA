@@ -1,9 +1,9 @@
 ### Table of Contents
 1. [Recursion](#Recursion)
 2. [BST](#BST)
-3. [Linked List](#"Linked List")
+3. [Linked List](#Linked-List)
 4. [DP](#DP)
-5. [Blind 75](#Blind 75)
+5. [Blind 75](#blind-75)
 6. [Sorting Algorithms](#Sorting Algorithms)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [Bubble Sort](#Bubble Sort)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. [Insertion Sort](#Insertion Sort)
