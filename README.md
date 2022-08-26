@@ -40,6 +40,7 @@
 | linked list, recursion | [**merge alternatively**](recursion/mergeAlternatively.py) | Merge two linked lists alternatively | M
 | linked list, Blind 75 | [**Remove Nth Node from End of List**](linked_lists/removeNthFromEnd.py) | Remove the nth node from the end of a linked list | M
 | linked list, recursion, Blind 75 | [**merge**](linked_lists/merge.py) | Merge two sorted linked lists in increasing order | M 
+|linked list| [**Reorder List**](linked_list/reorder_list.py) | Reorder `L0 → L1 → … → Ln - 1 → Ln` to `L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → … `| M
 
 ## DP
 |Tag|Problem|Description|
@@ -61,8 +62,9 @@
 |array| [**Search in Rotated Sorted Array**](array/search.py) | Return the index of the target in a rotated array in `Olog(n)` time | M
 |array| [**Three Sum**](array/3sum.py) | Given an array nums, return an array of all unique triplets in nums that add up to 0 | M
 |linked list| [**Remove Nth Node from End of List**](linked_lists/removeNthFromEnd.py) | Remove the nth node from the end of a linked list | M
-|recursion, linked list| [**sort**](linked_lists/sort.py) | Sort linked list in `Olog(n)` time and `O(1)` space | M
+|recursion, linked list| [**Sort**](linked_lists/sort.py) | Sort linked list in `Olog(n)` time and `O(1)` space | M
 |recursion, linked list| [**Merge**](linked_lists/merge.py) | Merge two sorted linked lists in increasing order | M 
+|linked list| [**Reorder List**](linked_list/reorder_list.py) | Reorder `L0 → L1 → … → Ln - 1 → Ln` to `L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → … `| M
 
 ## Sorting Algorithms
 ### Bubble Sort O(N<sup>2</sup>)
