@@ -25,22 +25,26 @@
 | recursion, linked list | [**merge alternatively**](recursion/mergeAlternatively.py) | Merge two linked lists alternatively
 | recursion, linked list, Blind 75 | [**merge**](linked_lists/merge.py) | Merge two sorted linked lists in increasing order | M
 
-## BST
+## Tree
 |Tag|Problem|Description|
 |---|-------|-----------|
-| bst | [**set to height**](bst/bst.py) | Set each node on a binary tree to its height
-| bst | [**inorder traversal**](bst/inorder_traversal.py) | Return an array populated by bst traversal
+| tree | [**Set to Height**](bst/bst.py) | Set each node on a binary tree to its height
+| tree | [**Inorder Traversal**](bst/inorder_traversal.py) | Return an array populated by bst traversal
+| tree, Blind 75 | [**Same Tree**](bst/same_tree.py) | Determine if two trees are the same | M 
 
 ## Linked List
 |Tag|Problem|Description|Difficulty
 |---|-------|-----------|----------
-| linked list | [**palindrome linked list**](linked_lists/palindrome.py) | Determine if linked list is palindrome | M
-| linked list | [**reverse linked list ii**](linked_lists/reverse_linked_lists_ii.py) | Reverse linked list from position `left` to `right` | M
-| linked list, recursion | [**sort**](linked_lists/sort.py) | Sort linked list in `Olog(n)` time and `O(1)` | M
-| linked list, recursion | [**merge alternatively**](recursion/mergeAlternatively.py) | Merge two linked lists alternatively | M
+| linked list | [**Palindrome Linked List**](linked_lists/palindrome.py) | Determine if linked list is palindrome | M
+| linked list | [**Reverse Linked List II**](linked_lists/reverse_linked_lists_ii.py) | Reverse linked list from position `left` to `right` | M
+| linked list | [**Reorder List**](linked_lists/reorder_list.py) | Reorder `L0 → L1 → … → Ln - 1 → Ln` to `L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → … `| M
+| linked list, recursion | [**Sort**](linked_lists/sort.py) | Sort linked list in `Olog(n)` time and `O(1)` | M
+| linked list, recursion | [**Merge Alternatively**](recursion/mergeAlternatively.py) | Merge two linked lists alternatively | M
 | linked list, Blind 75 | [**Remove Nth Node from End of List**](linked_lists/removeNthFromEnd.py) | Remove the nth node from the end of a linked list | M
-| linked list, recursion, Blind 75 | [**merge**](linked_lists/merge.py) | Merge two sorted linked lists in increasing order | M 
-|linked list| [**Reorder List**](linked_list/reorder_list.py) | Reorder `L0 → L1 → … → Ln - 1 → Ln` to `L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → … `| M
+| linked list, CTCI | [**Intersection of Two Linked Lists**](linked_lists/intersection.py) | Return the intersecting node between two linked lists (if there is one) | E
+| linked list, recursion, Blind 75 | [**Merge**](linked_lists/merge.py) | Merge two sorted linked lists in increasing order | M 
+| IMPLICIT linked list | [**Happy Number**](linked_lists/implicit/happy_number.py) | Determine if a number is happy. A happy number is a number whose sum of its digits squared is taken until it reaches 1 otherwise loops endlessly and is not a happy number.|M
+| IMPLICIT linked list | [**Find the Duplicate Number**](linked_lists/implicit/find_duplicate.py) | Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive. There is only one repeated number in nums, return this repeated number. | M
 
 ## DP
 |Tag|Problem|Description|
@@ -64,7 +68,15 @@
 |linked list| [**Remove Nth Node from End of List**](linked_lists/removeNthFromEnd.py) | Remove the nth node from the end of a linked list | M
 |recursion, linked list| [**Sort**](linked_lists/sort.py) | Sort linked list in `Olog(n)` time and `O(1)` space | M
 |recursion, linked list| [**Merge**](linked_lists/merge.py) | Merge two sorted linked lists in increasing order | M 
-|linked list| [**Reorder List**](linked_list/reorder_list.py) | Reorder `L0 → L1 → … → Ln - 1 → Ln` to `L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → … `| M
+|linked list| [**Reorder List**](linked_lists/reorder_list.py) | Reorder `L0 → L1 → … → Ln - 1 → Ln` to `L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → … `| M
+|tree| [**Same Tree**](bst/same_tree.py) | Determine if two trees are the same | M 
+|tree| [**Invert Tree**](bst/invert.py) | Invert a binary tree | M 
+
+## CTCI
+
+|Tag|Problem|Description|Difficulty
+|---|-------|-----------|-----------
+| linked list | [**Intersection of Two Linked Lists**](linked_lists/intersection.py) | Return the intersecting node between two linked lists (if there is one) | E
 
 ## Sorting Algorithms
 ### Bubble Sort O(N<sup>2</sup>)
