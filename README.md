@@ -31,7 +31,9 @@
 |---|-------|-----------|
 | tree | [**Set to Height**](bst/bst.py) | Set each node on a binary tree to its height
 | tree | [**Inorder Traversal**](bst/inorder_traversal.py) | Return an array populated by bst traversal
-| tree, Blind 75 | [**Same Tree**](bst/same_tree.py) | Determine if two trees are the same | M 
+| tree, Blind 75 | [**Same Tree**](bst/same_tree.py) | Determine if two trees are the same | M
+| tree, Blind 75, queue | [**Level Order Traversal**](bst/level_order_traversal.py) | Return the level order traversal of a tree | M
+| tree, Blind 75, queue| [**Subtree of Another Tree**](bst/subtree.py)| Given `root` and `subroot`, determine if `root` has a subtree that matches `subroot` | M
 
 ## Linked List
 |Tag|Problem|Description|Difficulty
@@ -60,18 +62,25 @@
 |array| [**Two Sum**](array/two_sum.py) | Return indices of the two numbers such that they add up to target | E
 |array| [**Best Time to Buy and Sell Stock**](array/maxProf.py) | Return maximum profit from array of buying and selling prices | E
 |array| [**Contains Duplicate**](array/containsDuplicate.py) | Return bool if array contains duplicate element | E
-|array| [**Maximum Product Subarray**](array/maxProduct.py) | Return bool if array contains duplicate element | E
+|array| [**Maximum Product Subarray**](array/maxProduct.py) | Find the contiguous subarray with the largest product | M
 |array| [**Product of Array Except Self**](array/productExceptSelf.py) | Return an array such that `answer[i]` is equal to the product of all the elements of `nums` except `nums[i]`. | M
 |array| [**Maximum Sum Subarray**](array/maxSubArray.py) | Find the contiguous subarray with the largest sum| M
 |array| [**Find Minimum in Rotated Sorted Array**](array/findMin.py) | Return the index of the minimum in a rotated array in `Olog(n)` time | M
 |array| [**Search in Rotated Sorted Array**](array/search.py) | Return the index of the target in a rotated array in `Olog(n)` time | M
 |array| [**Three Sum**](array/3sum.py) | Given an array nums, return an array of all unique triplets in nums that add up to 0 | M
+|string| [**Valid Anagrams**](string/validAnagram.py) | Determine if two strings are anagrams of each other | E
+|string| [**Valid Palindrome**](string/validPalindrome.py) | Determine if a string is a valid palindrome ignoring case and non-alphanumeric characters| E
+|string| [**Longest Substring Without Repeating Characters**](string/lengthOfLongestSubstring.py) | Return the length of the longest substring with no repeating characters | M
+|string| [**Longest Repeating Character Replacement**](string/characterReplacement.py) | Return the length of the longest possible substring with repeating characters after replacing a maximum of `k` characters| M
 |linked list| [**Remove Nth Node from End of List**](linked_lists/removeNthFromEnd.py) | Remove the nth node from the end of a linked list | M
 |recursion, linked list| [**Sort**](linked_lists/sort.py) | Sort linked list in `Olog(n)` time and `O(1)` space | M
 |recursion, linked list| [**Merge**](linked_lists/merge.py) | Merge two sorted linked lists in increasing order | M 
 |linked list| [**Reorder List**](linked_lists/reorder_list.py) | Reorder `L0 → L1 → … → Ln - 1 → Ln` to `L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → … `| M
 |tree| [**Same Tree**](bst/same_tree.py) | Determine if two trees are the same | M 
-|tree| [**Invert Tree**](bst/invert.py) | Invert a binary tree | M 
+|tree| [**Invert Tree**](bst/invert.py) | Invert a binary tree | E
+| tree, queue | [**Level Order Traversal**](bst/level_order_traversal.py) | Return the level order traversal of a tree | M
+| tree, queue| [**Subtree of Another Tree**](bst/subtree.py)| Given `root` and `subroot`, determine if `root` has a subtree that matches `subroot` | M
+
 
 ## CTCI
 

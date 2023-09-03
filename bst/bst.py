@@ -11,22 +11,21 @@ class Bst:
 
         # otherwise traverse the tree until pointer is null
         else:
-            ptr = self.root
-            parent = ptr
-            while ptr is not None:
-                parent = ptr
+            prev = now = self.root
+            while now:
+                prev = now
                 # if node's value is smaller than the pointer node -> move pointer to left
-                if node.val < ptr.val:
-                    ptr = ptr.left
+                if node.val < now.val:
+                    now = now.left
                 # else move pointer to right
                 else:
-                    ptr = ptr.right
+                    now = now.right
 
-            # set node to the child of parent
-            if node.val < parent.val:
-                parent.left = node
+            # set node to the child of prev
+            if node.val < prev.val:
+                prev.left = node
             else:
-                parent.right = node
+                prev.right = node
 
     def setToHeight(self, node):
         if node is None:
@@ -45,7 +44,6 @@ class Bst:
         # if node is empty -> return -1
         if node is None:
             return -1
-        print("RECURSION")
         # return max depth between left subtree and right subtree
         return max(1 + self.helper(node.left), 1 + self.helper(node.right))
 
@@ -60,7 +58,7 @@ bst.add(TreeNode(7))
 
 bst = Bst(node1)
 
-bst.setToHeight(bst.root)
+# bst.setToHeight(bst.root)
 def preorder(root):
     if root is None:
         return
@@ -76,5 +74,7 @@ def inorder(root):
     inorder(root.right)
 
 
-preorder(bst.root)
+#preorder(bst.root)
+#inorder(bst.root)
+
 inorder(bst.root)
