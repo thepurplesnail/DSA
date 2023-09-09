@@ -1,4 +1,4 @@
-def maxArea(height: list[int]) -> int:
+def max_area(height: list[int]) -> int:
     l = 0
     r = len(height) - 1
     res = min(height[l], height[r]) * r
@@ -9,4 +9,4 @@ def maxArea(height: list[int]) -> int:
             r -= 1
         res = max(res, min(height[l], height[r]) * (r - 1))
     return res
-print(maxArea([1,8,6,2,7]))
+print(max_area([1,8,6,2,7]))
