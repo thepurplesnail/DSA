@@ -14,7 +14,7 @@ def anagrams(s):
     if len(s) == 1:
         return s
     ans = []
-    # find all anagrams of the substring of s 1st character onwards
+    # find all anagrams of substring after 1st character
     subset = anagrams(s[1:])
 
     # iterate through each anagram in subset
